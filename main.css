@@ -1,0 +1,23 @@
+
+h1{
+    display: flex;
+    font-size: medium;
+    font-weight: 100;
+    justify-content: center;
+}
+
+
+.list ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.list .shop{
+    border: 1px dotted black;
+    margin-left: 0.5em;
+        flex: 1 1 25%;
+    
+}
