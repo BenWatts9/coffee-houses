@@ -1,3 +1,8 @@
+html {
+    background-image: url("https://live.staticflickr.com/65535/49897279937_e78c66e0ae_b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 h1{
     display: flex;
@@ -16,12 +21,13 @@ h1{
     flex-flow: row wrap;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
- 
+    
+    
 }
 
 .list .shop{
     border: 3px solid #85144b;
-    border-radius: 5%;
+    border-radius: 7px;
     margin-left: 0.5em;
         flex: 0 20 30%;
     font-size: 1em;
@@ -29,6 +35,7 @@ h1{
     color: #85144b;
     margin:2px;
     font-weight: bold;
+    opacity: 0.8;
     
 }
 
@@ -62,7 +69,7 @@ h4 {
 
 .website {
     display: flex;
-    border: 1px dotted grey;
+    /* border: 1px dotted grey; */
     color: whitesmoke;
     font-size: small;
     padding: 1px 20px 1px 20px;
@@ -71,7 +78,7 @@ h4 {
 
 .menu {
     display: flex;
-    border: 1px dotted grey;
+    /* border: 1px dotted grey; */
     color: whitesmoke;
     font-size: small;
     padding: 1px 20px 1px 20px;
