@@ -1,9 +1,12 @@
 
 h1{
     display: flex;
-    font-size: 1em;
-    font-weight: 100;
+    font-size: 2em;
+    font-weight: bold;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #85144b
+    
 }
 
 
@@ -17,13 +20,16 @@ h1{
 }
 
 .list .shop{
-    border: 1px dotted red;
+    border: 3px solid #85144b;
+    border-radius: 5%;
     margin-left: 0.5em;
         flex: 0 20 30%;
     font-size: 1em;
-    background-color: hsl(0, 7%, 51%);
-    color: rgb(241, 228, 170);
+    background-color: #dddddd;
+    color: #85144b;
     margin:2px;
+    font-weight: bold;
+    
 }
 
 
@@ -31,6 +37,7 @@ h2{
     font-size: 12px;
     font-weight: 100;
     margin: 1px;
+    
 
 }
 
@@ -38,8 +45,13 @@ h3{
     font-size: .85em;
     font-weight: 100;
     margin: 1px;
-    margin-bottom: 4px;
+   
 
+}
+h4 {
+    font-size: .85em;
+    font-weight: 100;
+    margin: 1px;
 }
 
 #block_container {
@@ -48,13 +60,13 @@ h3{
 
 }
 
-.phone {
+.website {
     display: flex;
     border: 1px dotted grey;
     color: whitesmoke;
-    font-size:small;
-    padding: 1px 4px 1px 7px;
-    margin: 2px 4px 2px 7px;
+    font-size: small;
+    padding: 1px 20px 1px 20px;
+    margin: 2px 7px 2px 7px;
 }
 
 .menu {
@@ -62,9 +74,9 @@ h3{
     border: 1px dotted grey;
     color: whitesmoke;
     font-size: small;
-    padding: 1px 7px 1px 7px;
+    padding: 1px 20px 1px 20px;
     margin: 2px 7px 2px 7px;
 }
 a {
-    color: rgb(241, 228, 170);
+    color: #85144b;
 }
